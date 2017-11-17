@@ -15,3 +15,14 @@ $(function() {
         activeEl = $( ".btn-nav" ).index( this );
     });
 });
+
+
+function relocate_comments()
+{
+     location.href = "survey.html";
+} 
+
+function relocate_survey()
+{
+     location.href = "comments.html";
+} 
